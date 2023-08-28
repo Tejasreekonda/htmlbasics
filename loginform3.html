@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: palevioletred;
+      
+        text-align: center;
+    }
+    .nav{
+        height:60px;
+        background-color: antiquewhite;
+        border:2px solid blueviolet;
+        justify-content: space-evenly;
+        display: flex;
+        align-items: center;
+    }
+    a{
+    text-decoration: none;
+    }
+    #one{
+        text-decoration:none;
+    }
+    img{
+        height:50px;
+        width:50px;
+        border-radius: 20px;
+        
+    }
+    .img{
+        margin:auto;
+    }
+    .one{
+        border:3px solid black;
+        height:auto;
+        width: 200px;
+        padding:20px;
+        border-radius: 20px;
+        margin: 100px auto auto auto;
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .two{
+        display: flex;
+        text-align: unset;
+        font-size: 12px;
+    }
+    
+    button{
+        width:150px;
+        margin:20px;
+        border-radius: 20px;
+        background-color: burlywood;
+        height:30px;
+    }
+    #input::placeholder{
+        color:white;
+    }
+    .three input{
+        background: none;
+        border-bottom:2px solid whitesmoke;
+        margin:10px;
+    }
+</style>
+<body>
+    <header>
+        <nav class="nav">
+            <img src="https://cdn.pixabay.com/photo/2014/02/17/10/20/statue-of-liberty-267948_1280.jpg">
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">LOGIN</a>
+        </nav>
+    </header>
+    <div class="one">
+        <img  src="https://thenounproject.com/api/private/icons/514033/edit/?backgroundShape=SQUARE&backgroundShapeColor=%23000000&backgroundShapeOpacity=0&exportSize=752&flipX=false&flipY=false&foregroundColor=%23000000&foregroundOpacity=1&imageFormat=png&rotation=0" class="img">
+        <div class="three">
+        <input id="input" type="Email" name="Email" placeholder="Email">
+        <input id="input" type="Password" name="Password" placeholder="Password">
+       </div>
+       <div class="two"> 
+        <input type="checkbox" name="check" value="Remember me">Remember me &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <small>Forgot Password?</small>
+        </div>
+        <button>Login</button>
+    </div>
+</body>
+</html>

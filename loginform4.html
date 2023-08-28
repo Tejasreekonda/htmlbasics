@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .one{
+        display: flex;
+        flex-direction: column;
+        height:auto;
+        width: 200px;
+        border: 2px solid black;
+        border-radius: 20px;
+        padding: 2%;
+        text-align: center;
+    }
+    .two input{
+        background: none;
+        border-bottom:2px solid whitesmoke;
+        margin:5px;
+    }
+    .three{
+        display: flex;
+    }
+    .four{
+       background: none;
+       margin:5px;
+       border:2px solid whitesmoke;
+    }
+    button{
+        width:150px;
+        margin:20px;
+        border-radius: 20px;
+        background-color: burlywood;
+        height:30px;
+    }
+</style>
+<body>
+    <div class="one">
+        <div class="two">
+        <input id="input" type="First Name" name="First Name" placeholder="First Name">
+        <input id="input" type="Last Name" name="Last Name" placeholder="Last Name">
+        <input id="input" type="User Name" name="User Name" placeholder="User Name">
+        DOB:<input id="input" type="date" name="text" placeholder="Date of Birth">
+        </div>
+        <div class="three">
+        <input type="radio" name="text" value="Male">Male &nbsp;&nbsp;&nbsp;
+        <input type="radio" name="text" value="Female">Female
+        </div>
+        <div class="four">
+        <input type="phone" name="number" placeholder="Phone Number" pattern="[6-9][0-9]{9}">
+        <input type="Email Address" name="Email Address" placeholder="Email Address">
+        </div>
+        <button><onclick="alert(Registered)">Register</button>
+    </div>
+</body>
+</html>

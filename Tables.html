@@ -1,0 +1,306 @@
+<html>
+<head>
+<link rel="icon" href="windows.jpg">
+</head>
+
+<html>
+    <head>
+        <h1>Basic Table</h1>
+    </head>
+    <style>
+     .two{
+        position: fixed;
+        z-index:2;
+        background-color: black;
+     }  
+     .three{
+        background-color: green;
+        position:absolute;
+        top:100px;
+        left:200px;
+     } 
+     .four{
+        position: sticky;
+        top:100px;
+        background-color: red;
+        
+     }
+    </style>
+    <body>
+        
+        <table class="two" border="2">
+            <tr><td>S.NO</td><td>Monday</td><td>Tuesday</td><td>Wednesday</td></tr>
+            <tr><td>1</td><td>Telugu</td><td>Java</td><td>Maths</td></tr>
+            <tr><td>2</td><td>Hindi</td><td>Python</td><td>Physics</td></tr>
+            <tr><td>3</td><td>English</td><td>Testing</td><td>Social</td></tr>
+        </table>
+    </body>
+</html>
+<br><br>
+<html>
+    <head>
+        <h1>Dimension Table</h1>
+    </head>
+    <body>
+        <table border="2" Height="200px" width="400px" class="three">
+            <tr><td>S.NO</td><td>Monday</td><td>Tuesday</td><td>Wednesday</td></tr>
+            <tr><td>1</td><td>Telugu</td><td>Java</td><td>Maths</td></tr>
+            <tr><td>2</td><td>Hindi</td><td>Python</td><td>Physics</td></tr>
+            <tr><td>3</td><td>English</td><td>Testing</td><td>Social</td></tr>
+        </table>
+    </body>
+</html>
+<br><br>
+<html>
+    <head>
+        <h1>Table Caption</h1>
+    </head>
+    <body>
+        <table border="2" Height="200px" width="400px">
+            <Caption><b>Table</b></Caption>
+            <tr><td>S.NO</td><td>Monday</td><td>Tuesday</td><td>Wednesday</td></tr>
+            <tr><td>1</td><td>Telugu</td><td>Java</td><td>Maths</td></tr>
+            <tr><td>2</td><td>Hindi</td><td>Python</td><td>Physics</td></tr>
+            <tr><td>3</td><td>English</td><td>Testing</td><td>Social</td></tr>
+        </table>
+    </body>
+</html>
+<br><br>
+<html>
+    <head>
+        <h1>Border Collapse</h1>
+    </head>
+    <body>
+        <table border="2" Height="200px" width="400px" style="border-collapse:collapse">
+            <tr><td>S.NO</td><td>Monday</td><td>Tuesday</td><td>Wednesday</td></tr>
+            <tr><td>1</td><td>Telugu</td><td>Java</td><td>Maths</td></tr>
+            <tr><td>2</td><td>Hindi</td><td>Python</td><td>Physics</td></tr>
+            <tr><td>3</td><td>English</td><td>Testing</td><td>Social</td></tr>
+        </table>
+    </body>
+</html>
+<br><br>
+<html>
+    <head>
+        <h1>Cell Padding</h1>
+    </head>
+    <body>
+        <table border="2" Height="200px" width="400px" cellpadding="20px" class="four">
+            <tr><td>S.NO</td><td>Monday</td><td>Tuesday</td><td>Wednesday</td></tr>
+            <tr><td>1</td><td>Telugu</td><td>Java</td><td>Maths</td></tr>
+            <tr><td>2</td><td>Hindi</td><td>Python</td><td>Physics</td></tr>
+            <tr><td>3</td><td>English</td><td>Testing</td><td>Social</td></tr>
+        </table>
+    </body>
+</html>
+<br><br>
+<html>
+    <head>
+        <h1>Cell Spacing</h1>
+    </head>
+    <body>
+        <table border="2" Height="200px" width="400px" cellspacing="20px">
+            <tr><td>S.NO</td><td>Monday</td><td>Tuesday</td><td>Wednesday</td></tr>
+            <tr><td>1</td><td>Telugu</td><td>Java</td><td>Maths</td></tr>
+            <tr><td>2</td><td>Hindi</td><td>Python</td><td>Physics</td></tr>
+            <tr><td>3</td><td>English</td><td>Testing</td><td>Social</td></tr>
+        </table>
+    </body>
+</html>
+<br><br>
+<html>
+    <head>
+        <h1>colspan and rowspan</h1>
+    </head>
+    <style>
+ul{
+    color:yellow;
+}
+
+    </style>
+    <body>
+        <table border="2" Height="200px" width="400px" style="border-collapse:collapse">
+            <tr><td colspan="4"><center>Time Table<center></td></tr>
+            <tr><td>S.NO</td><td>Monday</td><td>Tuesday</td><td>Wednesday</td></tr>
+            <tr><td>1</td><td>Telugu</td><td rowspan="3">java</td><td>Maths</td></tr>
+            <tr><td>2</td><td>Hindi</td><td>Physics</td></tr>
+            <tr><td>3</td><td>English</td><td>Social</td></tr>
+        </table>
+    </body>
+</html>
+<br><br>
+<html>
+    <head>
+        <h1>Unordered List</h1>
+    </head>
+    <body>
+        <ul>
+        <li>unordered list</li>
+        <li>ordered list</li>
+        <li>defintion list</li>
+        </ul>
+    </body>
+</html>
+<br><br>
+<html>
+    <head>
+        <h1>ordered List</h1>
+    </head>
+    <body>
+        <ol>
+        <li>unordered list</li>
+        <li>ordered list</li>
+        <li>defintion list</li>
+        </ol>
+    </body>
+</html>
+<html>
+    <head>
+        <h1>definiton List</h1>
+    </head>
+    <body>
+        <dl>
+        <h1><dt>Data</dt></h1>
+        <dd>unordered list</dd>
+        <dd>ordered list</dd>
+        <dd>defintion list</dd>
+        </dl>
+    </body>
+</html>
+<br><br>
+<html>
+    <head>
+        <h1>Nested List</h1>
+    </head>
+    <body>
+        <ul>
+        <li>unordered list</li>
+        <ol>
+            <li>unordered list</li>
+            <li>ordered list</li>
+            <li>defintion list</li>
+        </ol>
+            <li>Mango</li>
+            <li>Apple</li>
+            <li>Banana</li>
+            </ul>
+
+    </body>
+</html>
+<br><br>
+<html>
+    <head>
+        <h1>Iframes</h1>
+    </head>
+    <body>
+        <center><iframe src="https://en.wikipedia.org/wiki/Samantha_Ruth_Prabhu" width="1000px" height="300px"></iframe></center>
+    </body>
+</html>
+<br><br>
+<html>
+    <head>
+        <h1>Iframes</h1>
+    </head>
+    <body>
+        <center><iframe src="https://en.wikipedia.org/wiki/Samantha_Ruth_Prabhu" width="1000px" height="300px" style="border-color:red"></iframe></center>
+    </body>
+</html>
+<br><br>
+<html>
+    <head>
+        <h1>Iframes</h1>
+    </head>
+    <body>
+        <center><iframe name="nagpage" src="https://en.wikipedia.org/wiki/Samantha_Ruth_Prabhu" width="1000px" height="300px"></iframe></center>
+        <a href="https://en.wikipedia.org/wiki/Naga_Chaitanya" target="nagpage" width="1000px" height="300px">Naga_Chaitanya</a>
+    </body>
+</html>
+<br><br>
+<html>
+    <head>
+        <h1>City Color</h1>
+    </head>
+    <body>
+        <h1 style="color:red">Nellore</h1>
+        <p style="color:green" ><font face="Arial">JDK and JRE are the core concepts in Java programming and their differences are some of the most popular interview questions. We don’t use these concepts while programming but if we want to become a Java developer, we must know about these concepts. </font></p>
+        <a href="https://www.geeksforgeeks.org/difference-between-jdk-and-jre-in-java/" target="_blank"> geeks</a>
+        <a href="https://www.geeksforgeeks.org/difference-between-jdk-and-jre-in-java/" target="_self"> geeks</a>
+    </body>
+</html>
+<br><br>
+<html>
+    <head>
+        <title>Windows</title>
+    </head>
+    <body style="background-color:powderblue">
+    <h2 style="text-align:center" margin="30px">Registration Form</h2>
+    <h4 style="text-align:center;">Please fill the form</h4>
+    <form>
+        <center>
+            <fieldset>
+            <table>
+                <legend>Personal details</legend>
+                <tr><td><label>USER NAME</label></td>
+                        <td><input type="text" name="text" placeholder="Enter Username"></td></tr>
+                <tr><td>NAME</td>
+                        <td><input type="text" name="text" placeholder="Enter Name"></td></tr>
+                <tr><td>Email</td>
+                        <td><input type="text" name="text" placeholder="Enter Email"></td></tr>
+                <tr><td>Password</td>
+                        <td><input type="text" name="text" placeholder="Enter Password"></td></tr>
+                <tr><td>Repeat Password</td>
+                        <td><input type="text" name="text" placeholder="Conform Password"></td></tr>
+                <tr><td>Date of Birth</td>
+                        <td><input type="date" name="text"></td></tr>
+                <tr><td rowspan="4">Gender</td>
+                        <tr><td><input type="radio" name="text" value="Male">Male</td></tr>
+                        <tr><td><input type="radio" name="text" value="Female">Female</td></tr>
+                        <tr><td><input type="radio" name="text" value="Others">Others</td></tr>
+                </tr>        
+                <tr><td rowspan="4">Languages Known</td>
+                    <tr><td><input type="checkbox" name="text" value="Telugu">Telugu</td></tr>
+                    <tr><td><input type="checkbox" name="text" value="Hindi">Hindi</td></tr>
+                    <tr><td><input type="checkbox" name="text" value="English">English</td></tr>
+                </tr>  
+                <tr><td>Contact Number</td>
+                    <td><input type="phone" name="number" placeholder="Phone Number" pattern="[6-9][0-9]{9}"></td></tr>
+                <tr>
+                    <td>Upload</td>
+                    <td><input type="file" name="name"></td>
+                </tr>
+                <tr>
+                    <td>Favourite Color</td>
+                    <td><input type="color" name="name"></td>
+                </tr>
+                <tr>
+                    <td>Download File</td>
+                    <td><input type="search" name="name"></td>
+                </tr>
+                <tr>
+                    <td>Qualification</td>
+                    <td><select>
+                    <option>10th</option>
+                    <option>Inter</option>
+                    <option>B.tech</option></td>
+                </tr>
+                <tr>
+                    <td>text</td>
+                    <td><textarea rows="4" cols="5"></textarea></td>
+                </tr>
+                <br>
+                <tr>
+                    <td><input type="reset" name="text" value="Register" onclick="alert(apply coupon)"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" name="text" value="submit"></td>
+                </tr>
+            </table>
+            </fieldset>
+        </center>
+    </form>
+    </body>
+</html>
+<br><br>
+</html>
+<br><br>
+

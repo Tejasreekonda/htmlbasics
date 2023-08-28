@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: palevioletred;
+        margin-top: 100px;
+        text-align: center;
+    }
+    .one{
+        border:2px solid black;
+        height:auto;
+        width: 200px;
+        padding:20px;
+        border-radius: 20px;
+        margin:auto;
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+        background:rgba(10, 1, 4, 0.6);
+    }
+    button{
+        width:150px;
+        margin:20px;
+        border-radius: 20px;
+        background-color: burlywood;
+        height:30px;
+    }
+    .one img{
+        height:120px;
+        width:115px;
+        fill:red;
+        margin: auto;
+       
+    }
+    #input::placeholder{
+        color:white;
+    }
+    .two input{
+        background: none;
+        border-bottom:2px solid whitesmoke;
+        margin:5px;
+    }
+    .three{
+        display:flex;
+        margin-left:10px;
+    }
+
+</style>
+<body>
+    <div class="one">
+        <img src="https://thenounproject.com/api/private/icons/514033/edit/?backgroundShape=SQUARE&backgroundShapeColor=%23000000&backgroundShapeOpacity=0&exportSize=752&flipX=false&flipY=false&foregroundColor=%23000000&foregroundOpacity=1&imageFormat=png&rotation=0">
+        <div class="two">
+        <input id="input" type="First Name" name="First Name" placeholder="First Name">
+        <input id="input" type="Last Name" name="Last Name" placeholder="Last Name">
+        <input id="input" type="User Name" name="User Name" placeholder="User Name">
+        <input id="input" type="Email Address" name="Email Address" placeholder="Email Address">
+        <input id="input" type="Password" name="Password" placeholder="Password">
+        </div>
+        <div class="three">
+        <input type="checkbox" name="check" value="I agree to the terms">I agree to the terms
+    </div>
+        <button><a href="https://www.youtube.com/watch?v=o1IaduQICO0" target="_blank">REGISTER</a></button>
+    </div>
+</body>
+</html>

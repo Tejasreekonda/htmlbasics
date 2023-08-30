@@ -7,6 +7,34 @@
     <title>Document</title>
 </head>
 <style>
+    /* body{
+        margin: 50px auto auto auto; 
+        width:250px;
+    } */
+    .nav{
+        height:60px;
+        background-color: antiquewhite;
+        border:2px solid blueviolet;
+        justify-content: space-evenly;
+        display: flex;
+        align-items: center;
+        width: auto;
+    }
+    a{
+    text-decoration: none;
+    }
+    #one{
+        text-decoration:none;
+    }
+    img{
+        height:50px;
+        width:50px;
+        border-radius: 20px;
+        
+    }
+    .img{
+        margin:auto;
+    }
     .one{
         display: flex;
         flex-direction: column;
@@ -37,24 +65,44 @@
         background-color: burlywood;
         height:30px;
     }
+    /* .container{
+        background-color: aqua;
+        width: 1200px;
+        height: 800px;
+    } */
 </style>
 <body>
-    <div class="one">
-        <div class="two">
-        <input id="input" type="First Name" name="First Name" placeholder="First Name">
-        <input id="input" type="Last Name" name="Last Name" placeholder="Last Name">
-        <input id="input" type="User Name" name="User Name" placeholder="User Name">
-        DOB:<input id="input" type="date" name="text" placeholder="Date of Birth">
+    
+    <div class="container">
+        <nav class="nav">
+            <img src="https://cdn.pixabay.com/photo/2014/02/17/10/20/statue-of-liberty-267948_1280.jpg">
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">LOGIN</a>
+        </nav>
+    
+    <br><br>
+    <center>
+    <div style="margin: auto;">
+        <div class="one">
+            <div class="two">
+            <input  type="text" name="First Name" placeholder="First Name">
+            <input  type="text" name="Last Name" placeholder="Last Name">
+            <input  type="text" name="User Name" placeholder="User Name">
+            DOB:<input type="date" name="text" placeholder="Date of Birth">
+            </div>
+            <div class="three">
+            <input type="radio" name="text" value="Male">Male &nbsp;&nbsp;&nbsp;
+            <input type="radio" name="text" value="Female">Female
+            </div>
+            <div class="two">
+            <input type="number" name="number" placeholder="Phone Number" pattern="[6-9][0-9]{9}">
+            <input type="email" name="Email Address" placeholder="Email Address">
+            </div>
+            <button><onclick="alert(Registered)">Sign Up</button>
         </div>
-        <div class="three">
-        <input type="radio" name="text" value="Male">Male &nbsp;&nbsp;&nbsp;
-        <input type="radio" name="text" value="Female">Female
-        </div>
-        <div class="four">
-        <input type="phone" name="number" placeholder="Phone Number" pattern="[6-9][0-9]{9}">
-        <input type="Email Address" name="Email Address" placeholder="Email Address">
-        </div>
-        <button><onclick="alert(Registered)">Sign Up</button>
     </div>
+</center>
+</div>
 </body>
 </html>

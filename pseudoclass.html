@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    a.one:hover{
+        color:rgb(223,79,36);
+        font-size: 25px;
+    }
+    div{
+        width: 200px;
+        height: 200px;
+        /*background-color: aqua;*/
+        text-align: center;
+        color: brown;
+    }
+    div:hover{
+        background-color: blueviolet;
+    }
+    p{
+        display: none;
+        background-color: aquamarine;
+        padding: 20px;
+    }
+    div:hover p{
+        display: block;
+    }
+    p:first-child{
+        color: yellow;
+    }
+</style>
+<body>
+    <p>pseudo class is used to represent special state of an element</p>
+    <p><a href="#" class="one">Teju Website</a></p>
+    <p><a href="#" class="two">Pseudo classes</a></p>
+    <div>
+        hover me
+        <p>welcome to India</p>
+        <p>welcome to USA</p>
+    </div>
+    <div>
+        hover this div tag it will effect on the paragraph tag
+        <p>oops!!!! hover effected</p>
+        
+    </div>
+    <div>
+        <p>oops!!!! hover effected</p>
+        <p>oops!!!! hover effected</p>
+    </div>
+</body>
+</html>
